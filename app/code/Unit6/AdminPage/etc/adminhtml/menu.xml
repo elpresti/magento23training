@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- 
+/** 
+* Copyright © Magento. All rights reserved. 
+* See COPYING.txt for license details. 
+*/ 
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Unit6_AdminPage::new_admin_page" title="New Admin Page"
+			module="Unit6_AdminPage" resource="Unit6_AdminPage::new_page" 
+			parent="Magento_Catalog::inventory"
+			action="adminpage/page/index" sortOrder="10" />
+	</menu>
+</config>
